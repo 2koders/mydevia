@@ -1,6 +1,10 @@
 .prom{
     width: 100%;
-    background: rgb(223, 172, 5);
+    background: #0588df;
     color: rgb(236, 236, 236);
     padding: 8px;
+}
+
+.capital{
+    text-transform: uppercase !important;
 }

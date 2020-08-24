@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
+import { MaquinaComponent } from './maquina/maquina.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { GuiaUsoComponent } from './guia-uso/guia-uso.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [					
     AppComponent,
       NavbarComponent,
-      MainComponent
+      MainComponent,
+      MaquinaComponent,
+      PageNotFoundComponent,
+      GuiaUsoComponent
    ],
   imports: [
     BrowserModule,
