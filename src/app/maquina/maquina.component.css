@@ -1,0 +1,23 @@
+.car{
+    padding: 0;
+    margin: 0;
+    background: #000;
+}
+
+.car .img-back{
+    display: none;
+}
+
+.car:hover .img-back{
+    display: inline;
+}
+
+.car:hover .img-top{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    img{
+        width: 90vmin;
+    }
+}

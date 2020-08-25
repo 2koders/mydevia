@@ -1,0 +1,22 @@
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" required>
+  </div>
+  <div class="mb-1 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+  </div>
+  <div class="mb-3">
+    <a class="btn btn-link" routerLink="/passrecovery">¿Olvidó su contraseña?</a>
+  </div>
+  <div class="mb-3 row">
+    <button type="submit" class="btn btn-primary mx-2 p-2 col btnsmall">Iniciar Sesión</button>
+    <a routerLink="/register" class="btn btn-secondary mx-2 p-2 col btnsmall">Registrarse</a>
+  </div>
+</form>

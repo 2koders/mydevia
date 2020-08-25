@@ -1,22 +1,26 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+//Pagina de Inicio
 import { MainComponent } from './main/main.component';
 import { GuiaUsoComponent } from './guia-uso/guia-uso.component';
 import { MaquinaComponent } from './maquina/maquina.component';
-// import { MaquinaComponent } from './maquina/maquina.component';
-// import { MaquinaComponent } from './maquina/maquina.component';
-// import { MaquinaComponent } from './maquina/maquina.component';
-//404 Error Page
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { TiendaComponent } from './tienda/tienda.component';
+//Pagina de Error 404
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 const routes: Routes = [
-  { path: 'main', component: MainComponent },
+  //Pagina de Inicio
+  { path: '', component: MainComponent},
   { path: 'maquina', component: MaquinaComponent },
   { path: 'guia-uso', component: GuiaUsoComponent },
-  // { path: 'maquina', component: MaquinaComponent },
-  // { path: 'maquina', component: MaquinaComponent },
-  { path: '',   redirectTo: '/main', pathMatch: 'full' }, // redirect to `first-component`
-  //404 Error Page
+  { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'tienda', component: TiendaComponent },
+  //Redireciona al Inicio
+  { path: '',   redirectTo: '/', pathMatch: 'full' },
+  //Pagina de Error 404
   { path: '**', component: PageNotFoundComponent },
 ];
 

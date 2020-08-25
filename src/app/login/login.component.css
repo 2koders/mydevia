@@ -1,0 +1,41 @@
+.shadow{
+    box-shadow: 0 4px 4px -2px rgba(26, 26, 26, 0.25);
+}
+
+.ln{    
+    position: absolute;
+    border-left: 1px solid rgb(148, 148, 148);
+    height: 90%;
+    left: 58%;
+    top: 5%;
+}
+
+.m{
+    margin-right: 0.2vmin;
+}
+
+.img{
+    width: 20vw;
+}
+
+@media (max-width: 600px) {
+    .ln{
+        display: none;
+    }
+
+    .login{
+        width: 75vw;
+    }
+
+    .m{        
+        margin: auto;
+    }
+
+    .card{
+        padding-top: 0 !important;
+    }
+
+    .img{
+        width: 40vw;
+    }
+}
