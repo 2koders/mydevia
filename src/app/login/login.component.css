@@ -8,6 +8,8 @@
     height: 90%;
     left: 58%;
     top: 5%;
+    margin: 0;
+    width: 0;
 }
 
 .m{
@@ -18,7 +20,7 @@
     width: 20vw;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .ln{
         display: none;
     }
@@ -28,7 +30,7 @@
     }
 
     .m{        
-        margin: auto;
+        margin: 0;
     }
 
     .card{

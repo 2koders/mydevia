@@ -21,7 +21,8 @@ const routes: Routes = [
   //Redireciona al Inicio
   { path: '',   redirectTo: '/', pathMatch: 'full' },
   //Pagina de Error 404
-  { path: '**', component: PageNotFoundComponent },
+  {path: '404error', component: PageNotFoundComponent },
+  {path: '**', redirectTo: '/404error'}
 ];
 
 @NgModule({

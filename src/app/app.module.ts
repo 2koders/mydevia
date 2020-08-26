@@ -15,9 +15,11 @@ import { FormregisterComponent } from './formregister/formregister.component';
 import { FooterComponent } from './footer/footer.component';
 import { TiendaComponent } from './tienda/tienda.component';
 import { CarouselMainComponent } from './carousel-main/carousel-main.component';
+import { MainVentajasComponent } from './main-ventajas/main-ventajas.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [													
+  declarations: [														
     AppComponent,
       NavbarComponent,
       MainComponent,
@@ -30,11 +32,13 @@ import { CarouselMainComponent } from './carousel-main/carousel-main.component';
       FormregisterComponent,
       FooterComponent,
       TiendaComponent,
-      CarouselMainComponent
+      CarouselMainComponent,
+      MainVentajasComponent
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

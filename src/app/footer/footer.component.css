@@ -1,6 +1,9 @@
 .footer {
-    position: fixed;
+    position: -webkit-sticky;
     left: 0;
     bottom: 0;
     text-align: center;
+    margin: 0;
+    padding: 4vmin;
+    margin-top: 4vmin;
 }

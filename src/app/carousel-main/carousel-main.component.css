@@ -1,0 +1,4 @@
+.carousel{
+    overflow: hidden;
+    max-height: 40vh !important;
+}
