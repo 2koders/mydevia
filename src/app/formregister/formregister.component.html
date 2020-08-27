@@ -52,17 +52,17 @@
     </div>
   </div>
   <div class="row">
-    <div class="form-group col-md-6">
+    <div class="form-group col-md-6 mb-3">
       <label for="inputCity">Ciudad</label>
       <input type="text" class="form-control" id="inputCity">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-4 mb-3">
       <label for="inputState">Provincia</label>
       <select id="inputState" class="form-control" required>
         <option *ngFor="let state of states" selected>{{state.name}}</option>
       </select>
     </div>
-    <div class="form-group col-md-2">
+    <div class="form-group col-md-2 mb-3">
       <label for="inputZip">Codigo Postal</label>
       <input type="text" class="form-control" id="inputZip" minlength="5" maxlength="9" required>
     </div>
