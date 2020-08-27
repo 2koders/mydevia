@@ -17,9 +17,11 @@ import { TiendaComponent } from './tienda/tienda.component';
 import { CarouselMainComponent } from './carousel-main/carousel-main.component';
 import { MainVentajasComponent } from './main-ventajas/main-ventajas.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ContactosComponent } from './contactos/contactos.component';
+import { ClientSideComponent } from './client-side/client-side.component';
 
 @NgModule({
-  declarations: [														
+  declarations: [
     AppComponent,
       NavbarComponent,
       MainComponent,
@@ -33,7 +35,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
       FooterComponent,
       TiendaComponent,
       CarouselMainComponent,
-      MainVentajasComponent
+      MainVentajasComponent,
+      ContactosComponent,
+      ClientSideComponent,
    ],
   imports: [
     BrowserModule,

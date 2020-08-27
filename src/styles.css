@@ -2,3 +2,7 @@
 body{
     background: rgb(236, 236, 236);
 }
+
+.active{
+    font-weight: bold;
+}
