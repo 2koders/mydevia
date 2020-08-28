@@ -1,57 +1,112 @@
-<div class="footer w-100 bg-dark text-white mt-4 py-4 rounded-top">
+<div class="row bg-secondary py-4 w-100 mt-4 footer">
+    <div class="text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <h3 class="text-white font-weight-bold">Reciba nuestras novedades</h3>
+            </div>
+            <div class="col-md-3">
+                <form class="d-flex">
+                    <input class="form-control mr-2" type="email" placeholder="Correo Electrónico" aria-label="suscribirse">
+                    <button class="btn btn-dark text-info font-weight-bolder" type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer w-100 bg-dark text-white py-4">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="">
-                    <div class="">
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-4">
                         <a class="logo" href="#">
-                            <img src="../../assets/LOG DEVIA sin na.png" alt="" class="w-50">
+                            <img src="../../assets/LOG DEVIA sin na.png" alt="" class="w-100">
                         </a>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                    <ul class="list-group list-group-horizontal border-light w-100">
-                        <li class="list-group-item w-100 text-center"><a target="_blank" href="https://www.facebook.com/mydeviard/" class="text-primary"><fa-icon [icon]="facebook"></fa-icon></a></li>
-                        <li class="list-group-item w-100 text-center"><a target="_blank" href="https://twitter.com/mydeviard" class="text-info"><fa-icon [icon]="twitter"></fa-icon></a></li>
-                        <li class="list-group-item w-100 text-center"><a target="_blank" href="https://www.instagram.com/mydeviard/" class="text-pink"><fa-icon [icon]="instagram"></fa-icon></a></li>
-                        <li class="list-group-item w-100 text-center"><a target="_blank" href="https://www.youtube.com/channel/UCb_JZZVD9T1fkO-FHgJ3sLA" class="text-danger"><fa-icon [icon]="youtube"></fa-icon></a></li>
-                        <li class="list-group-item w-100 text-center"><a target="_blank" href="https://wa.me/18297805999" class="text-success"><fa-icon [icon]="whatsapp"></fa-icon></a></li>
-                    </ul>
+                    <div class="col-md-8">
+                        <div class="list-group list-group-flush">
+                            <a class="list-group-item user-select-none list-group-item-action bg-dark text-info text-white" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                                <fa-icon class="text-info" [icon]="phone"></fa-icon> 0755-66850898-8087
+                            </a>
+                            <a class="list-group-item user-select-none list-group-item-action bg-dark text-info text-white" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                                <fa-icon class="text-info" [icon]="phone"></fa-icon> 0755-66850898-8087
+                            </a>
+                            <a class="list-group-item user-select-none list-group-item-action bg-dark text-info text-white" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                                <fa-icon class="text-info" [icon]="mail"></fa-icon> mydevia@siteng.co
+                            </a>
+                            <a class="list-group-item user-select-none list-group-item-action bg-dark text-info text-white" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                                <fa-icon class="text-info" [icon]="location"></fa-icon> Unit 1808-1809,18 Floor, Building B,Hui Hai Plaza, Chuangye Road,Long Hua New District, Shenzhen, China.
+                            </a>
+                        </div>
+                        <ul class="list-group list-group-horizontal border-light mt-4">
+                            <li class="list-group-item user-select-none text-center bg-dark border-dark"><a target="_blank" href="https://www.facebook.com/mydeviard/" class="text-info"><fa-icon size="lg" [icon]="facebook"></fa-icon></a></li>
+                            <li class="list-group-item user-select-none text-center bg-dark border-dark"><a target="_blank" href="https://twitter.com/mydeviard" class="text-info"><fa-icon size="lg" [icon]="twitter"></fa-icon></a></li>
+                            <li class="list-group-item user-select-none text-center bg-dark border-dark"><a target="_blank" href="https://www.instagram.com/mydeviard/" class="text-info"><fa-icon size="lg" [icon]="instagram"></fa-icon></a></li>
+                            <li class="list-group-item user-select-none text-center bg-dark border-dark"><a target="_blank" href="https://www.youtube.com/channel/UCb_JZZVD9T1fkO-FHgJ3sLA" class="text-info"><fa-icon size="lg" [icon]="youtube"></fa-icon></a></li>
+                            <li class="list-group-item user-select-none text-center bg-dark border-dark"><a target="_blank" href="https://wa.me/18297805999" class="text-info"><fa-icon size="lg" [icon]="whatsapp"></fa-icon></a></li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-md-2">
+                <h3 class="font-weight-bold">Información</h3>
+
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Sobre Nosotros
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Politica de Privacidad
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <h3 class="font-weight-bold">Productos</h3>
+
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Láminas
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Covers
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Cables & Cargadores
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Audifonos - Audio
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Otros Accesorios
+                    </a>
                 </div>
             </div>
             <div class="col-md-3">
-                <h3>Stay Connected</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                <form>
-                    <div class="form-group mb-3">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Correo Electrónico" required>
-                    </div>
-                    <button class="btn btn-info text-white font-weight-bolder">Suscribirse</button>
-                </form>
-            </div>
-            <div class="col-md-3">
-                <h3>My Account</h3>
-                <ul class="list-links">
-                    <li class="text-decoration-none"><a href="#">My Account</a></li>
-                    <li><a href="#">My Wishlist</a></li>
-                    <li><a href="#">Compare</a></li>
-                    <li><a href="#">Checkout</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <h3>Customer Service</h3>
-                <ul class="list-links">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Shiping & Return</a></li>
-                    <li><a href="#">Shiping Guide</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
+                <h3 class="font-weight-bold">Servicio al Cliente</h3>
+
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Envío y devoluciones
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Contáctenos
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Almacenar imágenes
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Material de exhibición
+                    </a>
+                    <a class="list-group-item user-select-none list-group-item-action bg-dark text-info" [routerLink]="['/']" routerLinkActive="router-link-active" aria-current="true">
+                        Vídeos de productos
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <div class="row footer bg-info pt-2 w-100">
     <div class="text-center">
-        <p class="text-light"> Copyright &copy; {{copyYear}} Todos los Derechos Reservados | <strong>Cenllabo Comunicaciones SRL</strong> by <a href="https://2koders.com" class="text-decoration-none text-dark font-weight-bolder" target="_blank">2koders</a></p>
+        <p class="text-light"> Copyright &copy; {{copyYear}} Todos los Derechos Reservados | <strong>Cenllabo Comunicaciones SRL </strong><a href="https://2koders.com" class="text-decoration-none text-dark font-weight-bolder" target="_blank">by 2koders</a></p>
     </div>
 </div>
