@@ -3,22 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { MainComponent } from './main/main.component';
-import { MaquinaComponent } from './maquina/maquina.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { GuiaUsoComponent } from './guia-uso/guia-uso.component';
-import { LoginComponent } from './login/login.component';
-import { FormLoginComponent } from './form-login/form-login.component';
-import { RegisterComponent } from './register/register.component';
-import { FormregisterComponent } from './formregister/formregister.component';
-import { FooterComponent } from './footer/footer.component';
-import { TiendaComponent } from './tienda/tienda.component';
-import { CarouselMainComponent } from './carousel-main/carousel-main.component';
-import { MainVentajasComponent } from './main-ventajas/main-ventajas.component';
+import { NavbarComponent } from './_components/navbar/navbar.component';
+import { MainComponent } from './_pages/main/main.component';
+import { MaquinaComponent } from './_pages/maquina/maquina.component';
+import { PageNotFoundComponent } from './_pages/page-not-found/page-not-found.component';
+import { GuiaUsoComponent } from './_pages/guia-uso/guia-uso.component';
+import { LoginComponent } from './_pages/login/login.component';
+import { FormLoginComponent } from './_components/form-login/form-login.component';
+import { RegisterComponent } from './_pages/register/register.component';
+import { FormregisterComponent } from './_components/formregister/formregister.component';
+import { FooterComponent } from './_components/footer/footer.component';
+import { TiendaComponent } from './_pages/tienda/tienda.component';
+import { CarouselMainComponent } from './_components/carousel-main/carousel-main.component';
+import { MainVentajasComponent } from './_components/main-ventajas/main-ventajas.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ContactosComponent } from './contactos/contactos.component';
-import { ClientSideComponent } from './client-side/client-side.component';
+import { ContactosComponent } from './_pages/contactos/contactos.component';
+import { ClientSideComponent } from './_components/client-side/client-side.component';
 
 @NgModule({
   declarations: [

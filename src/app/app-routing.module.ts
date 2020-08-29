@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 //Pagina de Inicio
-import { MainComponent } from './main/main.component';
-import { GuiaUsoComponent } from './guia-uso/guia-uso.component';
-import { MaquinaComponent } from './maquina/maquina.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { TiendaComponent } from './tienda/tienda.component';
-import { ContactosComponent } from "./contactos/contactos.component";
+import { MainComponent } from './_pages/main/main.component';
+import { GuiaUsoComponent } from './_pages/guia-uso/guia-uso.component';
+import { MaquinaComponent } from './_pages/maquina/maquina.component';
+import { LoginComponent } from './_pages/login/login.component';
+import { RegisterComponent } from './_pages/register/register.component';
+import { TiendaComponent } from './_pages/tienda/tienda.component';
+import { ContactosComponent } from "./_pages/contactos/contactos.component";
 //Pagina de Error 404
-import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
+import { PageNotFoundComponent } from "./_pages/page-not-found/page-not-found.component";
 
 const routes: Routes = [
   //Pagina de Inicio
