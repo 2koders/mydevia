@@ -1,7 +1,3 @@
---root{
-    --c-primary: #3FA9F5;
-    --c-primary-hover: #1988d8;
-}
 /* You can add global styles to this file, and also import other style files */
 body{
     background: rgb(219, 219, 219);
@@ -12,13 +8,17 @@ body{
 }
 
 .btn-primary{
-    background: var(--c-primary);
-    border-color: var(--c-primary);
+    background: #3FA9F5;
+    border-color: #3FA9F5;
     font-weight: bold;
     color: white;
 }
 
 .btn-primary:hover{
-    background: var(--c-primary-hover);
-    border-color: var(--c-primary-hover);
+    background: #1988d8;
+    border-color: #1988d8;
+}
+
+.blue-primary{
+    color: #3FA9F5;
 }
