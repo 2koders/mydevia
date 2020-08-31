@@ -21,29 +21,38 @@
 <body>
     <style>
         body{
-            background-image: url("bg.jpg");
+            background-image: url("./fondo-devia.png");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
             background-size: auto 100vmax;
         }
 
+        body{
+            max-width: 100%;
+        }
+
+        html{
+            max-width: 100%;
+        }
+
         .page-wrap {
             min-height: 93.1vh;
         }
 
-        .footer {
-            position: -webkit-sticky;
+        /* .footer {
+            position: fixed;
             left: 0;
-            bottom: 0;
+            bottom: 0 !important;
             margin: 0;
-        }
+            width: 100vw;
+        } */
 
         .last{
             min-height: 6.9vh;
         }
 
-        .blur{
+        /* .blur{
             background: rgba(0, 0, 0, 0.5);
             position:absolute;
             filter: blur(12px);
@@ -53,37 +62,36 @@
             left: 50%;
             transform: translate(-50%,-50%);
             z-index: -1;
-        }
+        } */
     </style>
-    <div class="container"></div>
+    
     <div class="page-wrap d-flex flex-row text-white align-items-center">
-        
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="w-100 text-center">
-                    <div class="blur"></div>
                     <div class="mb-4 lead ">
                         <img src="./logo.png" class="w-50" alt="">
-                        <p class="h1 font-weight-bold">¡Estamos en construcción!</p>
-                        <p>Pronto estaremos ofreciendote nuestros servicios. ¡Esperanos!</p>
-                        <p class="font-weight-bold">Mientras esperas puedes visitarnos en instagram como <a class="text-info" href="https://www.instagram.com/mydeviard/">@mydeviard</a></p>
+                        <p class="h1 font-weight-bold mx-2">¡Estamos en construcción!</p>
+                        <p class="mx-2">Pronto estaremos ofreciendote nuestros servicios. ¡Esperanos!</p>
+                        <p class="font-weight-bold mx-2">Mientras esperas puedes visitarnos en instagram como <a class="text-info" href="https://www.instagram.com/mydeviard/">@mydeviard</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="footer">
+    <footer class="footer">
         <div class="justify-content-center"> 
-            <div class="bg-info last w-100 m-0 pt-3">
+            <div class="bg-info last w-100 pt-3">
                 <div class="text-center">
-                    <p class="text-light"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> Todos los Derechos Reservados | <strong>Cenllabo Comunicaciones SRL </strong><a href="https://www.instagram.com/2koders_/" class="text-decoration-none text-dark font-weight-bolder" target="_blank" rel="noopener noreferrer">by 2Koders</a></p>
+                    <p class="text-light"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> Todos los Derechos Reservados | CENLLABO Comunicaciones SRL<a href="https://www.instagram.com/2koders_/" class="text-decoration-none text-dark font-weight-bolder" target="_blank" rel="noopener noreferrer"> by 2Koders</a></p>
                 </div>
             </div>
         </div>
-    </div> 
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
-</html>
+    </footer>
+
+    <script src="./My Devia RD_files/jquery-3.5.1.slim.min.js.download" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="./My Devia RD_files/popper.min.js.download" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="./My Devia RD_files/bootstrap.min.js.download" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body></html>
