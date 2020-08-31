@@ -1,0 +1,62 @@
+.slideshow {
+    position: relative;
+    overflow: hidden;
+}
+
+.images {
+    background: url("../res/fondo-devia-2.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 1854px;
+    animation: slideshow 5s linear infinite;
+    z-index: -1;
+}
+
+.images2{
+    background: url("../res/fondo-devia-2.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 1854px;
+    animation: slideshow 5s linear infinite;
+    animation-delay: 5s;
+}
+
+@keyframes slideshow {
+    0%{
+        transform: translateX(100%);
+    }
+    100% { 
+        transform: translateX(-100%);  
+    }
+}
+
+body{
+    max-width: 100%;
+    margin: 0;
+    background: #232323;
+}
+
+html{
+    max-width: 100%;
+    margin: 0;
+}
+
+.page-wrap {
+    min-height: 92.9vh;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0 !important;
+    margin: 0;
+    width: 100vw;
+}
+
+.last{
+    max-height: auto;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "mydevia",
+    "version": "0.0.0",
+    "description": "mydevia.com.do",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test especified\" && exit 1"
+    },
+    "dependencies": {
+        "imagemin": "^7.0.1",
+        "imagemin-jpegtran": "7.0.0",
+        "imagemin-optipng": "8.0.0"
+    },
+    "author": "2Koders",
+    "license": "ISC"
+}
