@@ -1,5 +1,6 @@
 <div class="text-dark">
     <app-navbar *ngIf="router.url != '/404error'"></app-navbar>
+    <app-carousel-main *ngIf="router.url == '/'"></app-carousel-main>
     <router-outlet></router-outlet>
     <app-footer *ngIf="router.url != '/404error'"></app-footer>
 </div>

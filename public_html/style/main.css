@@ -1,0 +1,56 @@
+.slideshow {
+    position: relative;
+    overflow: hidden;
+}
+
+.images {
+    background: url("../res/fondo-devia-2.png");
+    background-repeat: repeat-x;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300%;
+    animation: slideshow 5s linear infinite;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+@keyframes slideshow {
+    0%{
+        background-position: -100%;
+    }
+    50%{
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+body{
+    max-width: 100%;
+    margin: 0;
+    background: #232323;
+}
+
+html{
+    max-width: 100%;
+    margin: 0;
+}
+
+.page-wrap {
+    min-height: 92.9vh;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0 !important;
+    margin: 0;
+    width: 100vw;
+}
+
+.last{
+    max-height: auto;
+}

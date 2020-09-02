@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white main-navigation justify-content-center shadow">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark main-navigation justify-content-center shadow">
   <div class="container">
     <a class="navbar-brand" routerLink="/">
-      <img src="../../assets/LOG-DEVIA-sin-na.png" alt="Logo" width="60">
+      <img src="../../../assets/devia-icon.png" alt="Logo" width="60">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -9,32 +9,34 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/" routerLinkActive="active">Inicio</a>
+          <a class="nav-link text-info" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/maquina" routerLinkActive="active">Maquina</a>
+          <a class="nav-link text-info" routerLink="/maquina" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Maquina</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/guia-uso" routerLinkActive="active">Guia de Uso</a>
+          <a class="nav-link text-info" routerLink="/guia-uso" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Guia de Uso</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/contactos" routerLinkActive="active">Contactos</a>
+          <a class="nav-link text-info" routerLink="/contactos" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Contactos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/tienda" routerLinkActive="active">Tienda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="../preg-frec">404 test</a>
+          <a class="nav-link text-info" routerLink="/tienda" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Tienda</a>
         </li>
         <!-- <li class="nav-item">
-          <a class="nav-link" href="tel:8092969060">
-            <p>Tel:(829)000-000</p>
+          <a class="nav-link text-info" routerLink="/preg-frec">404 test</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link text-dark " href="tel:8092969060">
+            <div class="rounded bg-info">
+              <p>Tel:(829)000-000</p>
+            </div>
           </a>
         </li> -->
       </ul>
       <ul class="navbar-nav float-right">
         <li class="nav-item">
-          <a class="btn font-weight-bold text-white" style="background: #3FA9F5; border-color: #3FA9F5;" routerLink="/login" routerLinkActive="active">Iniciar Sesión</a>
+          <a class="btn font-weight-bold btn-info text-white" routerLink="login">Iniciar Sesión</a>
         </li>
       </ul>
     </div>
