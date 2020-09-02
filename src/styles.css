@@ -6,19 +6,3 @@ body{
 .active{
     font-weight: bold;
 }
-
-.btn-primary{
-    background: #3FA9F5;
-    border-color: #3FA9F5;
-    font-weight: bold;
-    color: white;
-}
-
-.btn-primary:hover{
-    background: #1988d8;
-    border-color: #1988d8;
-}
-
-.blue-primary{
-    color: #3FA9F5;
-}
