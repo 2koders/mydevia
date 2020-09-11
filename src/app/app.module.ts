@@ -19,6 +19,8 @@ import { MainVentajasComponent } from './_components/main-ventajas/main-ventajas
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactosComponent } from './_pages/contactos/contactos.component';
 import { ClientSideComponent } from './_components/client-side/client-side.component';
+import { MainProductosComponent } from "./_components/main-productos/main-productos.component";
+import { DescComponent } from "./_components/desc/desc.component";
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { ClientSideComponent } from './_components/client-side/client-side.compo
       MainVentajasComponent,
       ContactosComponent,
       ClientSideComponent,
+      MainProductosComponent,
+      DescComponent,
    ],
   imports: [
     BrowserModule,
