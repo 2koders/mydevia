@@ -21,6 +21,8 @@ import { ContactosComponent } from './_pages/contactos/contactos.component';
 import { ClientSideComponent } from './_components/client-side/client-side.component';
 import { MainProductosComponent } from "./_components/main-productos/main-productos.component";
 import { DescComponent } from "./_components/desc/desc.component";
+import { NewsLetterComponent } from "./_components/news-letter/news-letter.component";
+import { ContactosFomrComponent } from "./_components/contactos-fomr/contactos-fomr.component";
 
 @NgModule({
   declarations: [
@@ -42,6 +44,8 @@ import { DescComponent } from "./_components/desc/desc.component";
       ClientSideComponent,
       MainProductosComponent,
       DescComponent,
+      NewsLetterComponent,
+      ContactosFomrComponent
    ],
   imports: [
     BrowserModule,

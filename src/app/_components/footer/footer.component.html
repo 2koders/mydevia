@@ -1,18 +1,7 @@
 <div class="fah shadow">
     <div class="row bg-secondary py-4 w-100 footer">
         <div class="text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <p class="text-white font-weight-bold h5">Reciba nuestras novedades</p>
-                </div>
-                <div class="col-md-4">
-                    <form class="d-flex">
-                        <input class="form-control mr-2 border-light" type="email" placeholder="Correo Electrónico"
-                            aria-label="suscribirse">
-                        <button class="btn btn-dark text-info font-weight-bolder" type="submit">Suscribirse</button>
-                    </form>
-                </div>
-            </div>
+            <app-news-letter></app-news-letter>
         </div>
     </div>
     <div class="footer w-100 bg-dark text-white py-4">
@@ -28,12 +17,12 @@
                         <div class="col-md-7">
                             <div class="list-group list-group-flush">
                                 <a class="list-group-item user-select-none list-group-item-action bg-dark text-info text-white"
-                                    target="_blank" rel="noopener noreferrer" href="https://wa.me/18494507766">
-                                    <fa-icon class="text-info" [icon]="whatsapp"></fa-icon> +1 (849) 450-7766
+                                    target="_blank" rel="noopener noreferrer" href="tel:8092962823">
+                                    <fa-icon class="text-info" [icon]="phone"></fa-icon> (809) 296-2823
                                 </a>
                                 <a class="list-group-item user-select-none list-group-item-action bg-dark text-info text-white"
-                                    target="_blank" rel="noopener noreferrer" href="https://wa.me/18297805999">
-                                    <fa-icon class="text-info" [icon]="whatsapp"></fa-icon> +1 (829) 780-5999
+                                    target="_blank" rel="noopener noreferrer" href="https://wa.me/18494507766">
+                                    <fa-icon class="text-info" [icon]="whatsapp"></fa-icon> +1 (849) 450-7766
                                 </a>
                                 <a class="list-group-item user-select-none list-group-item-action bg-dark text-info text-white"
                                     target="_blank" rel="noopener noreferrer" href="mailto:contacto@mydevia.com.do">
@@ -138,6 +127,14 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="row footer w-100 bg-dark-sky">
+        <div class="col text-center">
+        <a class="p-0 content-justify-center text-center" href="https://transparencyreport.google.com/safe-browsing/search?url=mydevia.com.do"><img src="../../../assets/google-trusted.png" class="m-4" alt=""></a>
+        </div>
+        <div class="col text-center">
+        <a class="p-0 content-justify-center text-center" href="https://safeweb.norton.com/report/show?url=mydevia.com.do"><img src="../../../assets/norton-2.png" class="m-4" alt=""></a>
         </div>
     </div>
     <div class="row footer bg-info pt-2 w-100">

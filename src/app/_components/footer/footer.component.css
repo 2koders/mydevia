@@ -8,3 +8,12 @@
 .text-pink{
     color: #fd56d9;
 }
+
+.bg-dark-sky{
+    background: rgb(17, 18, 29);
+}
+
+.bg-dark-sky img{
+    height: 4vh;
+    margin-top: 0;
+}
